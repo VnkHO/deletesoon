@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_navigation_navigations",
+  "info": {
+    "name": "navigation",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

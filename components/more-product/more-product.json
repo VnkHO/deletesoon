@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_more_product_more_products",
+  "info": {
+    "name": "moreProduct",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

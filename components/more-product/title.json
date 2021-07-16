@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_more_product_titles",
+  "info": {
+    "name": "title",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

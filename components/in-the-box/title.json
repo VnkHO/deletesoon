@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_in_the_box_titles",
+  "info": {
+    "name": "title",
+    "icon": "balance-scale-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_in_the_box_in_the_box_lists",
+  "info": {
+    "name": "inTheBoxList",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "quantity": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

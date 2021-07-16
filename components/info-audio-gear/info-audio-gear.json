@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_info_audio_gear_info_audio_gears",
+  "info": {
+    "name": "infoAudioGear",
+    "icon": "arrow-left"
+  },
+  "options": {},
+  "attributes": {
+    "side": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

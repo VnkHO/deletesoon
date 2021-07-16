@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "infoAudioGear": {
+      "type": "component",
+      "repeatable": false,
+      "component": "info-audio-gear.info-audio-gear"
+    },
+    "category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.category"
+    },
+    "productHeader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.product"
+    },
+    "product": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.product"
+    }
+  }
+}

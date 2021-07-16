@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_pages",
+  "info": {
+    "name": "ProductPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.product-description"
+    },
+    "feature": {
+      "type": "component",
+      "repeatable": false,
+      "component": "feature.feature"
+    },
+    "inTheBoxTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "in-the-box.title"
+    },
+    "inTheBoxList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "in-the-box.in-the-box-list"
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.gallery"
+    },
+    "moreProductTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "more-product.title"
+    },
+    "moreProduct": {
+      "type": "component",
+      "repeatable": true,
+      "component": "more-product.more-product"
+    },
+    "category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.category"
+    },
+    "infoAudioGear": {
+      "type": "component",
+      "repeatable": false,
+      "component": "info-audio-gear.info-audio-gear"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_product_product_descriptions",
+  "info": {
+    "name": "ProductDescription",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "side": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "prix": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "buttonCart": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "buttonLink": {
+      "type": "string"
+    }
+  }
+}

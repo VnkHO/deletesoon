@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_header_headers",
+  "info": {
+    "name": "header",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.navigation"
+    },
+    "cart": {
+      "type": "string"
+    }
+  }
+}

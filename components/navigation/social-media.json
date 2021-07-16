@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_navigation_social_medias",
+  "info": {
+    "name": "socialMedia",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

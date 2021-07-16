@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "name": "footer",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.navigation"
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.social-media"
+    },
+    "copyright": {
+      "type": "string"
+    }
+  }
+}

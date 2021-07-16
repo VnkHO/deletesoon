@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_homes",
+  "info": {
+    "name": "home",
+    "icon": "baseball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.product"
+    }
+  }
+}
